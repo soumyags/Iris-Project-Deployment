@@ -1,0 +1,19 @@
+For Applicaton Deployment:-
+
+1) We need Codespace
+a) Open Git Hub, create a new repository (same like before),upload file as "Requirement.txt"
+b) Right click on Code -> Codespace-> Create new codespace
+here a new browser link will be opened, where you can perform next action
+c)in my case, codespace was givig error as " already created"
+so we deleted the dplicated codespace & kept only one i.e. Main codespace , here codespace was not openong in Browser
+d) So we opened the codespace in "VS Code"
+e) Create New Folder "Notebook"
+d)upload file ".csv"
+e)create  a file "Project1.ipynb", this is same filewhere you need to follow Model creation using logistic method.
+f)create "model.pkl" & "pre.pk1"
+g)This step is to create a web page with buttons and dropdown,heading i.e. app.py outside " Notebook" folder
+h)Go to terminal($ prompt) , run all above code
+i)To execute the above code in browser
+$ prompt-> python3 -m streamlit app.py
+you will get the browser URL,just click on that IP based URL & check your browser
+j)Give any random nmber & check if any error,else open iris file and check random values & chk the output.
